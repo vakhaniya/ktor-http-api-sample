@@ -45,7 +45,7 @@ fun Route.customerRouting() {
     }
 }
 
-fun Application.registerCustomRoutes() {
+fun Application.registerCustomerRoutes() {
     routing() {
         customerRouting()
     }
